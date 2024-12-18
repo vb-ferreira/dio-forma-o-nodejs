@@ -13,3 +13,8 @@ const player2 = {
   PODER: 4,
   PONTOS: 0,
 };
+
+// Retorna um inteiro entre 1 e 6
+async function rollDice() {
+  return Math.floor(Math.random() * 6) + 1;
+}
